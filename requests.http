@@ -1,0 +1,14 @@
+### List all messages
+
+GET http://192.168.47.128:3000/messages
+
+### Create a new message
+POST http://192.168.47.128:3000/messages
+Content-Type: application/json
+
+{
+    "content": "hi there"
+}
+
+### Get a particular message with id
+GET http://192.168.47.128:3000/messages/123124325
